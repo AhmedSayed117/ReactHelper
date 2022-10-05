@@ -1,0 +1,11 @@
+li{
+    list-style: none;
+    text-transform: capitalize;
+}
+.brand{
+    font-weight: bold;
+}
+.brand_fl{
+    background: blue;
+    border-radius: 50px;
+}
