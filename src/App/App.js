@@ -22,7 +22,7 @@ class App extends Component {
                             <Route path="/profile" element={<Profile/>}/>
                             <Route path="/about" element={<About/>}/>
                             <Route path="/setting" element={<Setting/>}/>
-                            <Route path="*" element={<Error404 color="danger"/>}/>
+                            <Route path="*" element={<Error404 color="danger" buttonColor="success"/>}/>
                         </Routes>
                      </BrowserRouter>
                     <Footer/>
