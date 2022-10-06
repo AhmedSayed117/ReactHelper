@@ -25,7 +25,6 @@ class App extends Component {
                             <Route path="*" element={<Error404 color="danger"/>}/>
                         </Routes>
                      </BrowserRouter>
-
                     <Footer/>
                 </div>
         );
